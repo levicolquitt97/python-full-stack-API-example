@@ -15,12 +15,6 @@ def show_tables():
                            titles=['metadata'])
 
 
-@app.route('/return-file') # this is a job for GET
-def return_file():
-    return send_file('../python-full-stack-API-example/sample_files/metadata (1).txt',
-                     as_attachment=True)
-
-
 @app.route("/file-downloads") # this is a job for GET
 def file_downloads():
     return send_file('../python-full-stack-API-example/sample_files/metadata (1).txt',
