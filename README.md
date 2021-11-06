@@ -3,7 +3,7 @@ This project's goal is to demonstrate my Full Stack capabilities using python to
 
 How To run:
   - download project
-  - download relevant dependencies (flask, pandas)
+  - execute: pip install -r requirements.txt on your terminal
   - run site_tables.py
 
 specifications developed to:
